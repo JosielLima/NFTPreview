@@ -1,0 +1,45 @@
+.bg-primary {
+  background: var(--color-very-dark-blue-card-bg);
+}
+ 
+.text-primary {
+  color: #fff;
+}
+
+.text-secondary {
+  color: var(--color-soft-blue);
+}
+
+.text-contrast {
+  color: var(--color-cyan);
+}
+
+.title {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.text-hover:hover {
+  color: var(--color-cyan);
+  cursor: pointer;
+}
+
+.line-gap-start {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.line-gap-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+.pt-1 {
+  padding-top: var(--pt-1);
+}

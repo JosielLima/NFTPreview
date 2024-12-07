@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import 'normalize.css';
+:root {
+  /* Layout */
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+
+  /* Colors */
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-very-dark-blue-bg: hsl(217, 54%, 11%);
+  --color-very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --color-very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-family: 'Outfit', sans-serif;
+  --font-size-paragraph: 18px;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+
+   /* Spacing */
+  --flow-space: 2rem;
+  --pt-1: 16px;
+  --pt-2: 24px;
+}
+
+/* Example usage */
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-very-dark-blue-bg);
+  color: var(--color-white);
+}
+
+p {
+  font-size: var(--font-size-paragraph);
+}
+
+img {
+  max-width: 100%;
+}
+
+.attribution a {
+  color: var(--color-soft-blue);
+}
+

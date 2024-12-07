@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-top: solid 1px var(--color-very-dark-blue-line);
+  padding-top: var(--pt-1);
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}

@@ -1,0 +1,42 @@
+.card {
+  max-width: 350px;
+  background-color: var(--color-very-dark-blue-card-bg);
+  border-radius: 16px;
+  padding: var(--pt-2);
+}
+
+.card header {
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+  overflow: clip;
+  max-height: 350px;
+}
+
+.card header img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.card header:hover {
+  background: cyan;
+}
+
+.card header:hover::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  opacity: 1;
+  z-index: 2;
+  background-image: url('../../images/icon-view.svg');
+}
+
+.card header img:hover {
+  opacity: 0.5;
+  filter: brightness(110%);
+  background: cyan;
+}
